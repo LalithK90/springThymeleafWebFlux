@@ -1,7 +1,7 @@
-package lk.lositha.springthymeleafwebflux.repository;
+package lk.lositha.springthymeleafwebflux.noDatabaseConnection.controller.repository;
 
 
-import lk.lositha.springthymeleafwebflux.model.Movie;
+import lk.lositha.springthymeleafwebflux.noDatabaseConnection.controller.model.Movie;
 import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Flux;
 
@@ -12,7 +12,7 @@ import java.util.List;
 @Repository
 public class ReactiveMovieRepository implements MovieRepository {
 
-  private static List< Movie > movie = new ArrayList<>();
+  private static final List< Movie > movie = new ArrayList<>();
 
   static {
     movie.add(new Movie("Polar (2019)", 64));

@@ -1,4 +1,4 @@
-package lk.lositha.springthymeleafwebflux.model;
+package lk.lositha.springthymeleafwebflux.noDatabaseConnection.controller.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

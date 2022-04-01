@@ -1,6 +1,6 @@
-package lk.lositha.springthymeleafwebflux.controller;
+package lk.lositha.springthymeleafwebflux.noDatabaseConnection.controller.controller;
 
-import lk.lositha.springthymeleafwebflux.repository.MovieRepository;
+import lk.lositha.springthymeleafwebflux.noDatabaseConnection.controller.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
